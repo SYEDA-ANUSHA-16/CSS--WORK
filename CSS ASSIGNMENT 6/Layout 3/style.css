@@ -1,0 +1,66 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    max-width: 800px;
+    height: 100vh;
+    margin: auto;
+}
+
+.section{
+    background-color: black;
+    height:300px;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box-1{
+    width: 40%;
+    background-color: gray;
+}
+
+.right{
+    width: 50%;
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-2{
+    background-color: grey;
+    height: 100px;
+    width: 115%;
+}
+
+.right-bottom{
+    display: flex;
+    gap: 20px;
+}
+
+.box-3{
+    width: 70%;
+    background-color: grey;
+    height: 150px;
+}
+
+.sub-bottom{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px
+}
+
+.box-4{
+    width: 135%;
+    height: 70px;
+    background-color: grey;
+}
+
+.box-5{
+    width:135% ;
+    height:70px;
+    background-color: grey;
+}
